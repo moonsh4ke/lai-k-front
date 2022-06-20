@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Lai-K
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Repositorio de respaldo para el proyecto de Ingeniería de software 2.
 
-## Available Scripts
+## TODO:
 
-In the project directory, you can run:
+- [ ] [Se deben realizar cursos de programación en React y Flask]
+- [ ] [Los que sepan Git, deben enseñar a utilizar a herramienta a los que no sepan en pro de la colaboración.] 
+- [ ] [Realizar las historias de usuario que sean concordantes con lo expuesto el día 08/04/2022]
+- [x] [Repaso de bases de datos]
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Descripción de la problematica
+Un camino pedregoso o simplemente tedioso es lo que le espera a una persona en busca de un veterinario particular cuando no se tienen contactos, más aún, cuando lo que se necesita es un servicio de especialidad. La información de los profesionales se encuentra esparcida entre distintos medios (redes sociales, sitios web, etc).  A veces la misma información es confusa o ni siquiera está actualizada a la fecha, lo que puede ser desalentador cuando se trata del medio de contacto. Hay otras ocasiones en las que se logra comunicar con un médico, para enterarse de que no hay horas próximas disponibles o peor aún: que el profesional no realiza el servicio que se necesita con urgencia.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Por otra parte, otro punto a considerar es que es común que se presenten dificultades a la hora de atender a una mascota y en la mayoría de los casos es por el factor ansiedad. Esto quiere decir que hay animales que se estresan al ser sacados de su entorno. También hay animales en los que el traslado de estos requiere un esfuerzo mayor.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Características de la solución
 
-### `npm run build`
+- [ ] [Credenciales de acceso para profesionales y dueños de mascota (contempla registro individual)]
+- [ ] [Los profesionales especifican el rango de horarios en los que pueden realizar servicios para cada día de la semana]
+- [ ] [Los dueños pueden solicitar una visita especificando servicio, hora y día. En espera de confirmación del profesional seleccionado]
+- [ ] [El sistema debe entregar los profesionales disponibles en el horario especificado. Con sus datos respectivos (contacto, especialidad, foto, rut, etc)]
+- [ ] [Rastreo de agenda para los dueños (esperando confirmación, confirmado, en camino, etc)]
+- [ ] [Área de solicitudes de vista por confirmar para profesionales]
+- [ ] [Se notifica a los profesionales de nuevas agendas para confirmar, con el día, ubicación, datos del dueño y paciente a visitar.]
+- [ ] [Se notifica a los dueños de visitas confirmadas]
+- [ ] [Una vez efectuado el servicio los profesionales acusan el servicio entregado en el sistema]
+- [ ] [Mantención de cuentas de profesionales y usuarios]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Herramientas para el desarrollo de Lai-K
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Nombre | Versión
+---|---
+Git | Control de versiones
+GitHub | Servidor para Git
+MariaDB | Gestor de bases de datos
+CSS | Lenguaje para diseño en cascada
+HTML | Lenguaje de etiquetado
+React | Front-End
+Flask | Back-end
+Heroku | Alojamiento de proyecto
